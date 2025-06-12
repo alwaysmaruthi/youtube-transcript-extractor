@@ -1,0 +1,20 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "cd backend && python app.py"
+healthcheckPath = "/health"
+healthcheckTimeout = 300
+restartPolicyType = "never"
+
+[[services]]
+name = "backend"
+source = "backend/"
+
+[[services.variables]]
+name = "PORT"
+value = "5000"
+
+[[services.variables]]
+name = "FLASK_ENV"
+value = "production"

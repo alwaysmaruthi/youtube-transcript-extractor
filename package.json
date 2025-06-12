@@ -1,0 +1,15 @@
+{
+  "name": "youtube-transcript-extractor",
+  "version": "1.0.0",
+  "description": "Full-stack YouTube transcript extraction app",
+  "main": "backend/app.py",
+  "scripts": {
+    "start": "cd backend && python app.py",
+    "build": "cd frontend && npm install && npm run build",
+    "install-frontend": "cd frontend && npm install",
+    "install-backend": "cd backend && pip install -r requirements.txt"
+  },
+  "keywords": ["youtube", "transcript", "react", "flask"],
+  "author": "alwaysmaruthi",
+  "license": "MIT"
+}
