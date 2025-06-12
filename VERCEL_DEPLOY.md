@@ -9,15 +9,15 @@ This happens because Vercel's one-click deploy only builds the frontend, but our
 
 ## 🚀 Solution: Multiple Deployment Options
 
-### **Option 1: Railway (Recommended - Easiest)**
-Railway supports full-stack apps out of the box:
+### **Option 1: Render (Recommended - Actually Works)**
+Render supports full-stack apps out of the box:
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/1KQY8w)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 
-1. Click the Railway button
+1. Click the Render button
 2. Connect your GitHub account  
 3. Select this repository
-4. Railway automatically deploys BOTH frontend and backend
+4. Render automatically deploys the backend
 5. Get your live URL in ~3 minutes!
 
 ### **Option 2: Separate Frontend/Backend Deployment**
