@@ -1,6 +1,19 @@
 # YouTube Transcript Extractor - Full Stack Application
 
+[![CI/CD Pipeline](https://github.com/alwaysmaruthi/youtube-transcript-extractor/actions/workflows/ci.yml/badge.svg)](https://github.com/alwaysmaruthi/youtube-transcript-extractor/actions)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/1KQY8w)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/alwaysmaruthi/youtube-transcript-extractor)
+
 A professional full-stack web application that extracts real YouTube video transcripts using Python backend and React frontend.
+
+## ⚡ Quick Deploy
+**Deploy instantly with one click:**
+- **Railway** (Recommended): [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/1KQY8w)
+- **Render**: [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+- **Vercel**: [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/alwaysmaruthi/youtube-transcript-extractor)
+
+📖 **[View Deployment Guide](DEPLOYMENT.md)** for detailed instructions and platform comparison.
 
 ## 🚀 Features
 
