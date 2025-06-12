@@ -1,0 +1,24 @@
+{
+  "name": "YouTube Transcript Extractor",
+  "description": "Extract transcripts from YouTube videos",
+  "repository": "https://github.com/alwaysmaruthi/youtube-transcript-extractor",
+  "logo": "https://raw.githubusercontent.com/alwaysmaruthi/youtube-transcript-extractor/main/frontend/public/favicon.ico",
+  "keywords": ["python", "flask", "youtube", "transcript", "api"],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "env": {
+    "FLASK_ENV": {
+      "value": "production"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "stack": "heroku-22"
+}

@@ -1,0 +1,14 @@
+name: youtube-transcript-extractor
+services:
+- name: backend
+  source_dir: /
+  github:
+    repo: alwaysmaruthi/youtube-transcript-extractor
+    branch: main
+  run_command: gunicorn --chdir backend --bind 0.0.0.0:$PORT app:app
+  environment_slug: python
+  instance_count: 1
+  instance_size_slug: basic-xxs
+  envs:
+  - key: FLASK_ENV
+    value: production
