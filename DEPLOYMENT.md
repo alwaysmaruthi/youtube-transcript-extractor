@@ -23,13 +23,17 @@ Deploy your YouTube Transcript Extractor instantly with these platforms:
 3. Render will build both services automatically
 4. Free tier available (with limitations)
 
-### 3. Vercel (Frontend) + Backend separately
+### 3. Vercel (Frontend Only - Requires Backend Setup)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/alwaysmaruthi/youtube-transcript-extractor)
 
-**For full-stack on Vercel:**
-1. Deploy frontend to Vercel (instant)
-2. Deploy backend to Railway/Render
-3. Update frontend environment variables
+**⚠️ Important:** Vercel one-click deploy only deploys the frontend. You'll get a "Could not connect to server" error.
+
+**For full-stack deployment:**
+1. Deploy backend to Railway/Render first
+2. Update frontend API URL in code
+3. Then deploy frontend to Vercel
+
+📖 **[See Vercel Deployment Fix Guide](VERCEL_DEPLOY.md)** for detailed solutions.
 
 ### 4. Docker Anywhere
 ```bash

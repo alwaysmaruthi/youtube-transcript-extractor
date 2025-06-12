@@ -15,7 +15,7 @@ import {
 } from 'lucide-react';
 
 const API_BASE = process.env.NODE_ENV === 'production' 
-  ? 'https://your-backend-url.com' 
+  ? window.location.origin  // Use same domain for production (works with Vercel)
   : 'http://localhost:5000';
 
 function App() {
